@@ -1,0 +1,26 @@
+[
+    "index.md",
+    [
+        "who-am-i.md",
+        "appearin.md"
+    ],
+    [
+        "so-what-is-angularjs.md",
+        "a-very-basic-example.md",
+        "a-closer-look-at-the-template.md",
+        "compiling-the-template.md"
+    ],
+    [
+        "data-binding.md",
+        "one-way-data-bindings.md",
+        "two-way-data-bindings.md",
+        "connecting-the-model-to-the-view.md"
+    ],
+    [
+        "understanding-the-angular-execution-context.md",
+        "example-socketio-and-the-angular-execution-context.md",
+        "a-closer-look-at.md"
+    ],
+    "demo-time.md",
+    "summing-up.md"
+]
