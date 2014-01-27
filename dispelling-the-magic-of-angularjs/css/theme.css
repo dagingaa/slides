@@ -180,3 +180,9 @@ footer {
   transform-style: preserve-3d;
   display: block;
   padding-left: 15% !important; }
+
+*[ng-app] {
+  display: none; }
+
+.ng-scope {
+  display: block; }
