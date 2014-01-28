@@ -14,12 +14,12 @@
         "data-binding.md",
         "one-way-data-bindings.md",
         "two-way-data-bindings.md",
-        "connecting-the-model-to-the-view.md"
+        "connecting-the-model-to-the-view.md",
+        "a-closer-look-at.md"
     ],
     [
         "understanding-the-angular-execution-context.md",
-        "example-socketio-and-the-angular-execution-context.md",
-        "a-closer-look-at.md"
+        "example-socketio-and-the-angular-execution-context.md"
     ],
     "demo-time.md",
     "summing-up.md"

@@ -2,7 +2,7 @@
 
 ````javascript
 // Registers a listener callback to be executed when the watchExpression changes
-$watch(watchExpression, listener, objectEquality);
+$watch(watchExpression, listener);
 
 // Processes all the watchers of the current scope and all its children
 $digest()
