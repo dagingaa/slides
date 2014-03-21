@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.3/angular.min.js"></script>
+</head>
+<body>
+<div ng-controller="itemsController">
+    <form ng-submit="add()">
+        <input type="text" ng-model="item" placeholder="Enter an item here">
+    </form>
+    <hr>
+    <ul>
+        <li ng-repeat="item in items track by $index">{{item}} (<a href="" ng-click="removeItem(item)">remove</a>)</li>
+    </ul>
+</div>
+<script>
+function itemsController($scope) {
+    $scope.items = [];
+
+    $scope.add = function () {
+        $scope.items.push(this.item);
+        this.item = "";
+    };
+
+    $scope.removeItem = function (item) {
+        var index = $scope.items.indexOf(item);
+        if (index === -1) {
+            return;
+        }
+        $scope.items.splice(index,1);
+    };
+};
+</script>
+
+</body>
+</html>
